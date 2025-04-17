@@ -1,0 +1,21 @@
+<template>
+  <lightning-card title="DATATYPES ">
+
+    <lightning-input label="enter firstnumber" onchange={fnam} value={num1}></lightning-input>
+    <lightning-input label="enter secondnumber" onchange={snm} value={num2}></lightning-input>
+    <lightning-input label="enter thirdnumber" onchange={tnm}  value={num3}></lightning-input>
+
+    <lightning-button-group>
+
+  <lightning-button label="submit" onclick={calme} variant="brand"></lightning-button>
+  <lightning-button label="clear" onclick={clearme} variant="destructive"></lightning-button>
+
+
+    </lightning-button-group>
+    <p><b>************** the results is </b></p>
+
+    the greater number is  :{result}
+
+
+  </lightning-card>
+</template>P
