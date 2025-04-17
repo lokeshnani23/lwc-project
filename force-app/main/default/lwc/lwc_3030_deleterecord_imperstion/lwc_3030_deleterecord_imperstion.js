@@ -1,4 +1,3 @@
-
 import { LightningElement,api } from 'lwc';
 import { deleteRecord } from 'lightning/uiRecordApi';
 
